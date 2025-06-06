@@ -2,6 +2,7 @@
 
 namespace MenyongMenying\PHP\MenyongMenyingLibrary\Request;
 
+use MenyongMenying\PHP\MenyongMenyingLibrary\Data\Data;
 
 /**
  * @author MenyongMenying <menyongmenying.main@email.com>
@@ -11,8 +12,9 @@ namespace MenyongMenying\PHP\MenyongMenyingLibrary\Request;
  * @since 2025-06-06
  * 
  * 
- * 
+ * @property Data $data Menyimpan data hasil input request.
  */
 final class RequestJson
 {
+    private Data $data;
 }
