@@ -1,0 +1,13 @@
+{
+    "name": "menyong-menying/php-request",
+    "description": "Library untuk mengatur atau mengelolah data input request.",
+    "type": "library",
+    "authors": [
+        {
+            "name": "MenyongMenying",
+            "email": "menyongmenying.main@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
