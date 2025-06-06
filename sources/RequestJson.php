@@ -11,8 +11,9 @@ use MenyongMenying\PHP\MenyongMenyingLibrary\Data\Data;
  * 
  * @since 2025-06-06
  * 
- * 
  * @property Data $data Menyimpan data hasil input request.
+ * 
+ * @method string getRawData(string $source) Mengambil data mentah input request berdasarkan sumber/source.
  */
 final class RequestJson
 {
@@ -22,4 +23,18 @@ final class RequestJson
      * @var \MenyongMenying\PHP\MenyongMenyingLibrary\Data\Data 
      */
     private Data $data;
+
+    /**
+     * getRawData(string $source)
+     * 
+     * Mengambil data mentah input request berdasarkan sumber/source.
+     *
+     * @param  string $source 
+     *
+     * @return string         
+     */
+    public function getRawData(string $source) :string
+    {
+        return file_get_contents($source);
+    }
 }
