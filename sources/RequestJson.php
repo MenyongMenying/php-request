@@ -16,5 +16,10 @@ use MenyongMenying\PHP\MenyongMenyingLibrary\Data\Data;
  */
 final class RequestJson
 {
+    /**
+     * Menyimpan data hasil input request.
+     *
+     * @var \MenyongMenying\PHP\MenyongMenyingLibrary\Data\Data 
+     */
     private Data $data;
 }
