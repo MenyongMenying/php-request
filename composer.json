@@ -14,5 +14,7 @@
             "MenyongMenying\\PHP\\MenyongMenyingLibrary\\Request\\": "./sources/"
         }
     },
-    "require": {}
+    "require": {
+        "menyong-menying/php-data": "dev-main"
+    }
 }

@@ -1,0 +1,56 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "868adc5776a5ca245b0f03d75ab0d0b1",
+    "packages": [
+        {
+            "name": "menyong-menying/php-data",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/MenyongMenying/php-data.git",
+                "reference": "c8f50e9efc75644cb32927509ede464b010c10dd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/MenyongMenying/php-data/zipball/c8f50e9efc75644cb32927509ede464b010c10dd",
+                "reference": "c8f50e9efc75644cb32927509ede464b010c10dd",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "MenyongMenying\\PHP\\MenyongMenyingLibrary\\Data\\": "./sources/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "MenyongMenying",
+                    "email": "menyongmenying.main@gmail.com"
+                }
+            ],
+            "description": "Library untuk menyimpan, mengatur, dan mengelolah data.",
+            "support": {
+                "issues": "https://github.com/MenyongMenying/php-data/issues",
+                "source": "https://github.com/MenyongMenying/php-data/tree/main"
+            },
+            "time": "2025-06-06T03:20:25+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "menyong-menying/php-data": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {},
+    "platform-dev": {},
+    "plugin-api-version": "2.6.0"
+}
